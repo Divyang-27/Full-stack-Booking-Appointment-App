@@ -1,0 +1,36 @@
+.heading {
+  text-align: center;
+  color: rgb(56, 56, 100);
+}
+
+form {
+  background-color: ivory;
+  margin-left: 15%;
+  margin-right: 45%;
+  border: 3px solid;
+}
+
+label {
+  display: block;
+}
+
+.button {
+  background-color: orangered;
+  color: bisque;
+  padding: 10px;
+  margin: 20px;
+  width: 90%;
+  text-align: center;
+  display: block;
+}
+
+input {
+  background-color: azure;
+  margin: 7px;
+  height: 30px;
+  width: 40%;
+}
+
+li {
+  color: whitesmoke;
+}

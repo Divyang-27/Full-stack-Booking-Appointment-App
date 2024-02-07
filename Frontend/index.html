@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharpener form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"
+      integrity="sha512-NQfB/bDaB8kaSXF8E77JjhHG5PM6XVRxvHzkZiwl3ddWCEPBa23T76MuWSwAJdMGJnmQqM0VeY9kFszsrBEFrQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <form action="#" onsubmit="displayUser(event)" class="forms">
+      <h2 class="heading">Book a call</h2>
+      <p class="heading">
+        Book a slot and our representative will call you within 1hr of selected
+        time
+      </p>
+      <div>
+        <label for="name"><strong>Name: </strong></label>
+        <input
+          class="inp"
+          type="text"
+          name="name"
+          id="name"
+          autocomplete="off"
+          required
+        />
+      </div>
+      <div>
+        <label for="mail"><strong>Email: </strong></label>
+        <input type="email" name="mail" id="mail" required />
+      </div>
+      <div>
+        <label for="number"><strong>Phone: </strong></label>
+        <input type="text" name="number" id="number" required />
+      </div>
+      <button type="Submit" class="button">Get call</button>
+    </form>
+    <ul id="list-of-items"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>
